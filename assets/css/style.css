@@ -1,0 +1,437 @@
+/* ================ Designed by Programmer Titu ================= */
+/* Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+
+/* Common CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Header Part Start */
+.header_part {
+  padding: 30px 0;
+  background: url(../img/head.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header_main {
+  padding: 320px 0;
+}
+.header_head h4 {
+  font-size: 60px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.header_head p {
+  font-size: 14px;
+  color: #fff;
+}
+.header_img {
+  position: absolute;
+}
+.header_img_inner img {
+  position: relative;
+  bottom: -150px;
+  right: 85px;
+}
+/* Header Part End */
+
+
+/* About Part Start  */
+.about_part {
+  padding: 90px 0;
+  background: #fff;
+}
+.about_head h4 {
+  font-size: 35px;
+  color: #222626;
+  font-weight: 300;
+}
+.about_text p {
+  font-size: 15px;
+  color: #959595;
+  padding: 10px 0 0;
+}
+.about_head_inner {
+  margin-top: 165px;
+}
+/* About Part End */
+
+
+/* Boxs Part Start */
+.box_con_main_01 {
+  padding: 50px 0;
+  background: #f5979c;
+}
+.box_head h4 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 300;
+  margin-left: 40px;
+}
+.box_head p {
+  font-size: 13px;
+  color: #fff;
+  margin: 20px 20px 60px 40px;
+}
+.box_end p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  margin-left: 40px;
+}
+.box_end_icon i {
+  margin-left: 20px;
+  color: #fff;
+}
+.box_end p:hover,
+.box_end_icon i:hover {
+  color: #9dccae;
+  transition: 0.3s;
+}
+.box_con_main_02 {
+  padding: 50px 0;
+  background: #615e7d;
+}
+.box_con_main_03 {
+  padding: 47.5px 0;
+  background: url(../img/box-3.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.box_icon i {
+  margin-left: 320px;
+  color: #fff;
+}
+.box_con_main_04 {
+  padding: 47px 0;
+  background: url(../img/box-4.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.box_con_main_04:hover {
+  padding: 47px 0;
+  background: url(../img/box-5.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+.box_icon_2 i {
+  margin-left: 690px;
+  color: #fff;
+}
+.box_con_main_05 {
+  padding: 49px 0;
+  background: #81c99c;
+}
+
+/* Boxs Part End */
+
+
+/* Four Column Part Start */
+.four_col_part {
+  padding: 50px 0;
+  background: #fff;
+}
+.four_head h4 {
+  padding: 40px 0;
+  font-size: 35px;
+  color: #222626;
+  font-weight: 300;
+}
+.col_head h5 {
+  padding: 20px 0;
+  font-size: 14px;
+  color: #67676d;
+  font-weight: 600;
+}
+.col_head p {
+  font-size: 14px;
+  color: #959595;
+}
+/* Four Cloumn Part End */
+
+
+/* Full Image Part Start */
+.full_img_part {
+  padding: 400px 0 100px;
+  background: url(../img/full_image.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img_head h4 {
+  padding: 40px 0;
+  font-size: 60px;
+  color: #fff;
+  font-weight: 300;
+}
+.img_head p {
+  font-size: 13px;
+  color: #fff;
+}
+.img_text p {
+  padding: 20px 0;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+}
+.img_text p:hover,
+.img_tex_icon i:hover {
+  color: #8ECDA5;
+  transition: 0.3s;
+}
+.img_tex_icon i {
+  padding: 24px 0;
+  margin-left: 20px;
+  color: #fff;
+}
+/* Full Image Part End */
+
+
+/* Color Part Start */
+.color_part {
+  padding: 80px 0;
+  background: #81c99b;
+}
+.color_head h4 {
+  padding: 40px 0;
+  font-size: 35px;
+  color: #fff;
+  font-weight: 300;
+}
+.color_head_inner h5 {
+  padding: 20px 0;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+.color_head_inner p {
+  font-size: 14px;
+  color: #fff;
+}
+/* Color Part End */
+
+/* ================ Developed by Programmer Titu With Titu Mollick =================== */
+
+/* Buying Part Start */
+.buying_part {
+  background: #f6f7fa;
+}
+.buying_con {
+  padding: 105px 0;
+}
+.buying_con_main {
+  padding: 50px;
+}
+.buying_con_main:hover {
+  background: #f1f1f1;
+  box-shadow: 0 0 3px black;
+  transition: 0.3s;
+}
+.buying_button a {
+  height: 25px;
+  width: 100px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  background: #e1e1e1;
+  font-size: 11px;
+  color: #fff;
+  font-weight: 700;
+}
+.buying_con_main:hover a {
+  background: #bd8bbf;
+  transition: 0.3s;
+}
+.buying_head h4 {
+  padding: 20px 0;
+  font-size: 30px;
+  color: #2e3b4e;
+  font-weight: 300;
+}
+.buying_head p {
+  font-size: 14px;
+  color: #8297a7;
+}
+.buying_button_inner a {
+  margin: 30px 0;
+  height: 46px;
+  width: 150px;
+  border-radius: 5px;
+  background: #81c99b;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 700;
+}
+.buying_con_main:hover .buying_button_inner a {
+  background: #81c99b;
+  transition: 0.3s;
+}
+.buying_con_main .buying_button_inner:hover a {
+  background: #87caa0ee;
+  transition: 0.3s;
+}
+.icon_inner {
+  margin: 10px 15px 0 0;
+}
+.icon_inner i {
+  font-size: 25px;
+  color: #c5c5c5;
+}
+.buying_con_main:hover .icon_inner a {
+  background: none;
+  transition: 0.3s;
+}
+/* Buying Part End */
+
+/* footer Part Start */
+.footer_part {
+  padding: 100px 0;
+  background: #192331;
+}
+.footer_head h5 {
+  padding: 20px 0;
+  font-size: 14px;
+  color: #f6f7fa;
+  font-weight: 600;
+}
+.footer_head p {
+  font-size: 13px;
+  color: #f6f7fa;
+}
+.footer_head a {
+  font-size: 13px;
+  color: #f6f7fa;
+  text-decoration: none;
+}
+.footer_head a:hover {
+  color: #69BD88;
+  transition: 0.3s;
+}
+.search_button {
+  display: flex;
+  justify-content: right;
+  margin-right: 145px;
+}
+.search_button .search {
+  position: absolute;
+  height: 50px;
+  width: 400px;
+  padding: 10px;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  background: #81c99b;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon:hover {
+  background: #69bd88;
+  color: #192331;
+  transition: 0.3s;
+}
+.search_button a {
+  text-decoration: none;
+  color: #fff;
+  text-align: right;
+}
+/* Footer Part End */
+
+/* /////////////////////////////////
+  //                                   Responsiv CSS   ======== >>   Developed by Programmer Titu With Titu Mollick =================== 
+ ///////////////////////////////////
+ */
+
+/* Responsiv CSS Start Inportent */
+@media (max-width: 575.98px) {
+  .header_head h4 {
+    margin-top: -320px;
+  }
+  .header_head p {
+    margin-top: -5px;
+  }
+  .header_img_inner img {
+    top: -498px;
+    left: -140px;
+  }
+  .header_img_inner img {
+    height: 580px;
+    width: 280px;
+  }
+  .box_icon i,
+  .box_icon_2 i {
+    margin-left: 420px;
+  }
+  .search {
+    width: 370px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header_head h4 {
+    margin-top: -320px;
+  }
+  .header_head p {
+    margin-top: -5px;
+  }
+  .header_img_inner img {
+    top: -498px;
+    right: -200px;
+  }
+  .header_img_inner img {
+    height: 600px;
+    width: 300px;
+  }
+  .box_icon i,
+  .box_icon_2 i {
+    margin-left: 450px;
+  }
+  .search {
+    width: 370px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header_img_inner img {
+    bottom: -300px;
+    right: 5px;
+  }
+  .box_icon i,
+  .box_icon_2 i {
+    margin-left: 590px;
+  }
+  .search {
+    width: 200px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header_img_inner img {
+    bottom: -200px;
+    right: 45px;
+  }
+  .search {
+    width: 320px;
+  }
+}
+
+@media (min-width: 1200px) {}
+/* Responsiv CSS End Inportent */
+
+
+/* ================ Developed by 💖 Programmer Titu With Titu Mollick =================== */
